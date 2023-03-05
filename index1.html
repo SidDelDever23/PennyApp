@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!--Google Fontes-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+        <!--! -- Fonte Icones - Font-awesome-->
+     
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+        <title>App Penny</title>
+    </head>
+  <body>
+    <header id="title">
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Penny App</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           
+           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+               <ul class="navbar-nav ml-auto">
+                   <li class="nav-item">
+                       <a class="nav-link" href="#footer">
+                           Contato
+                       </a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#pricing">
+                           Plano
+                       </a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#cta">
+                           Dowload
+                       </a>
+                   </li>
+                </ul>     
+           </div>
+          
+       </nav>
+
+         <!--Titilo-->
+         <!--Titulo-->
+         <div class="row">
+             
+            <div class="col-lg-6">
+               <h1>Encontre agora mesmo o seu Pet para ser o seu melhor amigo.</h1>
+               <button type="button" class="dowload-Button btn btn-dark btn-lg">  <i class="fa-brands fa-apple"> </i> Download</button>
+               <button type="button" class="dowload-Button btn btn-outline-light btn-lg"> <i class="fa-brands fa-google-play"></i> Download</button>
+            </div>
+   
+            <figure class="col-lg-6">
+                <img class="title-image" src="./img/Gatinho.png" alt="Gatinho Feliz" />
+            </figure>
+
+        </div>
+    </header>
+
+    <section id="features">
+        <div class="row">
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-solid fa-circle-check fa-4x"></i>
+                <h3>Fácil de Usar</h3>
+                <p>Tão fácil de usar que até o seu pet poderia fazer isso.</p>
+            </div>
+            
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-solid fa-bullseye fa-4x"></i>
+                <h3>Os melhores Pets</h3>
+                <p>Temos os melhores pets pra você</p>
+            </div>
+            
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-solid fa-heart fa-4x"></i>
+                <h3>Pets Ama</h3>
+                <p>Encontre o Pet ideal para você</p>
+    
+            </div>
+    
+        </div>
+        
+        
+    </section>
+
+    <section id="testimonials">
+
+        <!--Inicio do Carrosel-->
+        <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>Muito Bom, o sistema é ótimo para encontrar o seu Pet</h2>
+                    <img class="testimonials-image" src="img/Sidney.jpg" alt="Sidney Delmiro" />
+                    <em>Recife, Pernambuco</em>
+                </div>
+                    <div class="carousel-item">
+              
+                    <h2>Meu App é Muito Bom, um dos melhores do mercado</h2>
+                    <img class="testimonials-image" src="img/Gato-preto.png" alt="Gato Preto" />
+                    <em>Olinda, Pernambuco</em>
+                    </div>
+            </div>
+                <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              
+                </a>
+            
+                <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="prev" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  
+                </a>
+                 
+            
+          </div>
+
+
+        <!--fim do Carrosel-->
+    
+
+
+    </section>
+
+    <section id="press">
+        <img src="img/1.png" alt="logo1" />
+        <img src="img/2.png" alt="logo2" />
+        <img src="img/3.png" alt="logo3" />
+        <img src="img/4.png" alt="logo4" />
+
+    </section>
+
+    <!--Inicio dos Cards-->
+
+    <section id="pricing">
+
+        <h2>Um plano para necessidade de cada Pet</h2>
+        <p>Plano de preços simples que acessíveis para você e quem você ama</p>
+
+        <div class="row">
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Plano Pé Duro 2</h3>
+                    </div>
+                        <div class="card-body">
+                            <h2> Grátis </h2>
+                            <p>5 curtidas por dia</p>
+                            <p>10 curtidas por dia</p>
+                            <p>40 curtidas por dia</p>
+                            <button class="btn btn-lg btn-block btn-outline-dark" type="button">inscreva-se</button>
+                        </div>
+
+                </div>
+    
+            </div>
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                <div class="card-header">
+                    <h3>Pé Duro</h3>
+                </div>
+        
+                <div class="card-body">
+                    <h2> R$ 25,00 /mês </h2>
+                    <p>Curtidas ilimitadas</p>
+                    <p>Mensagens ilimitadas</p>
+                    <p>Acesso completo ao App</p>
+                    <button class="btn btn-lg btn-block btn-dark" type="button">inscreva-se</button>
+        
+                </div>
+        
+                </div>
+            </div>
+            <div class="pricing-column col-lg-4 col-md-12">
+
+                <div class="card">
+                <div class="card-header">
+                    <h3>Pets Vips</h3>
+                </div>
+        
+                <div class="card-body">
+                    <h2> R$ 50,00 /mês </h2>
+                    <p>Lista de Prioridades</p>
+                    <p>Mensagens ilimitadas</p>
+                    <p>Acesso completo ao App</p>
+                    <button class="btn btn-lg btn-block btn-dark" type="button">inscreva-se</button> 
+                    </div>
+        
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+    </section>
+
+    <!--Fim dos Cards-->
+
+    <section id="cta">
+
+        <h3 class="cta-heading"> Faça o Download agora mesmo...</h3>
+            <button type="button" class="dowload-Button btn btn-dark btn-lg">  <i class="fa-brands fa-apple"> </i> Download</button>
+            <button type="button" class="dowload-Button btn btn-outline-light btn-lg"> <i class="fa-brands fa-google-play"></i> Download</button>
+        
+
+    </section>
+        
+        
+        
+    <footer id="footer">
+    
+        <i class="social-icon fa-brands fa-facebook-f"></i>
+        <i class="social-icon fa-brands fa-twitter"></i>
+        <i class="social-icon fa-brands fa-instagram"></i>
+        <i class="social-icon fa-solid fa-envelope"></i>
+
+        <p>© Copyright 2022 AppDukeza</p>
+    
+    </footer>
+  
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+</html>
